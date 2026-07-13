@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: wu-ai-agent
+  ai:
+    dashscope:
+      api-key: sk-59f2689cc77146c4bc6c6dd57c4b8f92
+      chat:
+        options:
+          model: qwen-plus
+  #    ollama:
+  #      base-url: http://localhost:11434
+  #      chat:
+  #        model: gemma3:1b
+  #    vectorstore:
+  #      pgvector:
+  #        index-type: HNSW
+  ##        dimensions: 1536
+  #        distance-type: COSINE_DISTANCE
+  #        max-document-batch-size: 10000 # Optional: Maximum number of documents per batch
+  datasource:
+    url: jdbc:postgresql://pgm-2zeb846mf803ho4o2o.rwlb.rds.aliyuncs.com/wu_ai_agent
+    username: my_user
+    password: Zxcvbnm159@
+
+# searchApi
+search-api:
+  api-key: 8YeC2FCZ1VPhYBXM6RphMePx
+
+
+
